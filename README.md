@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # fpv-strike-drone
 
@@ -10,6 +10,22 @@
 **▶ Play instantly: https://cognis-digital.github.io/fpv-strike-drone/**  · no install, runs in any modern browser.
 
 </div>
+
+## What is this?
+FPV Strike Drone is a browser-based flight and combat simulation game where you pilot a drone from a first-person perspective. You fly, maneuver, and engage targets in a team deathmatch format — all without downloading anything. Anyone with a modern web browser can open the link and start playing immediately, no setup required. It is aimed at hobbyists, gamers, and anyone curious about what drone-piloting feels like from the cockpit.
+
+## Getting started
+No installation needed. Open the game directly in your browser:
+
+**[Play now — https://cognis-digital.github.io/fpv-strike-drone/](https://cognis-digital.github.io/fpv-strike-drone/)**
+
+To run it locally (for development or offline play):
+```bash
+git clone https://github.com/cognis-digital/fpv-strike-drone.git
+cd fpv-strike-drone
+python -m http.server 8000
+# then open http://localhost:8000 in your browser
+```
 
 ## About
 FPV Strike Drone — first-person drone flight & strike sim. Built as a self-contained browser experience (HTML5 + JS canvas/WebGL). Part of the [Cognis Digital](https://cognis.digital) labs.
