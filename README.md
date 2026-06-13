@@ -11,6 +11,20 @@
 
 </div>
 
+## Usage — step by step
+
+1. Play instantly in any modern browser — no install: <https://cognis-digital.github.io/fpv-strike-drone/>
+2. To run locally, clone the repo:
+   ```bash
+   git clone https://github.com/cognis-digital/fpv-strike-drone.git && cd fpv-strike-drone
+   ```
+3. Serve the static files (it is a self-contained HTML5 + JS canvas/WebGL app):
+   ```bash
+   python -m http.server 8000
+   ```
+4. Open the sim and fly by browsing to <http://localhost:8000>.
+5. Host your own copy — any static host works (the repo is GitHub Pages-ready via `index.html` + `.nojekyll`); push to a gh-pages-enabled repo, or drop `index.html` on any CDN/static bucket.
+
 ## About
 FPV Strike Drone — first-person drone flight & strike sim. Built as a self-contained browser experience (HTML5 + JS canvas/WebGL). Part of the [Cognis Digital](https://cognis.digital) labs.
 
